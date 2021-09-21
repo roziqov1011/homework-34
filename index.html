@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shorts icon" href="https://github.com/roziqov1011/LOGO/blob/main/img/logo-white.png?raw=true">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>vazifa-34</title>
+        <style>
+            body{
+                background: rgb(119, 113, 113);
+            }
+            li{
+                border-radius: 7px;
+                background-color: rgb(7, 160, 66);
+                color: #fff;
+                margin-top: 3px;
+                width: 100px;
+                text-align: center;
+            }
+            #list{
+                color: #000;
+            }
+            span{
+                color: #fff;
+                font-size: 25px;
+                white-space: nowrap;
+            }
+            #p{
+                position: absolute;
+                left: 30%;
+                top: 50%;
+                overflow: hidden;
+                animation: name 8s linear infinite;
+            }
+            @keyframes name {
+                0% {
+                    width: 10px;
+                }
+
+                50% {
+                    width: 480px;
+                }
+                100% {
+                    width: 481px;
+                }
+            }
+
+
+        </style>
+    </head>
+    <body class="bg-info">
+
+        <div class="container">
+            <form action="#" id="formqosh">
+                <input id="qoshish" type="text" class="form-control mt-5" placeholder="maxsulotni qoshiing" required>
+                <button id="qoshishbtn" type="submit" class="btn btn-success mt-2">qoshish</button>
+            </form>
+            <form action="#" id="formteksh">
+                <input id="tekshir" type="text" class="form-control mt-5" placeholder="maxsulotni tekshiring">
+                <button id="tekshirbtn" type="submit" class="btn btn-success mt-2">tekshirish</button>
+            </form>
+
+            <ol id="list" class="list-group">
+                
+            </ol>
+            <p id="p"><span id="span"></span></p>
+        </div>
+
+        <script src="./js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
